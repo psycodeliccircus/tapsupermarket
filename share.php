@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="https://www.facebook.com/2008/fbml">
     <head>
     	<?php
-			$title = isset($_GET['title']) ? $_GET['title'] : '';
-			$desc = isset($_GET['desc']) ? $_GET['desc'] : '';
-			$thumb = isset($_GET['thumb']) ? $_GET['thumb'] : '';
+			$title = isset($_GET['title']) ? $_GET['title'] : 'Tap Supermarket';
+			$desc = isset($_GET['desc']) ? $_GET['desc'] : 'Tap Supermarket is a HTML5 game where you own your own market and become rich by making the best out of it, keep on expending for the new departments to increase rating of your supermarket.';
+			$thumb = isset($_GET['thumb']) ? $_GET['thumb'] : 'https://psycodeliccircus.github.io/tapsupermarket/share.jpg';
 			$width = isset($_GET['width']) ? $_GET['width'] : '590';
 			$height = isset($_GET['height']) ? $_GET['height'] : '300';
 			$url = isset($_GET['url']) ? $_GET['url'] : 'https://psycodeliccircus.github.io/tapsupermarket/';
