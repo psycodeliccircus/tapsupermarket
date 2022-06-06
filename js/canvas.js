@@ -236,7 +236,7 @@ function buildGameCanvas(){
 	expandNameTxt.color = "#025a82";
 	expandNameTxt.textAlign = "center";
 	expandNameTxt.textBaseline='alphabetic';
-	expandNameTxt.text = 'DAILY';
+	expandNameTxt.text = 'DIÁRIO';
 	expandNameTxt.y = -158;
 	
 	expandCostTxt = new createjs.Text();
@@ -387,7 +387,7 @@ function buildGameCanvas(){
 	popTitleTxt.color = "#025a82";
 	popTitleTxt.textAlign = "center";
 	popTitleTxt.textBaseline='alphabetic';
-	popTitleTxt.text = 'NEW GAME';
+	popTitleTxt.text = 'NOVO JOGO';
 	popTitleTxt.x = canvasW/2;
 	popTitleTxt.y = canvasH/100 * 43;
 	
@@ -396,7 +396,7 @@ function buildGameCanvas(){
 	popDescTxt.color = "#666";
 	popDescTxt.textAlign = "center";
 	popDescTxt.textBaseline='alphabetic';
-	popDescTxt.text = 'NEW GAME';
+	popDescTxt.text = 'NOVO JOGO';
 	popDescTxt.lineHeight = 25;
 	popDescTxt.x = canvasW/2;
 	popDescTxt.y = canvasH/100 * 48;

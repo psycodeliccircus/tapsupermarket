@@ -170,28 +170,28 @@ var gameSetting = {
 
 //test display
 var textDisplay = {
-					newTitle:'NEW GAME',
-					newDesc:'Are you sure you want to start new game?\nAny previous progress will be lost!',
-					quitTitle:'QUIT GAME',
-					quitDesc:'Are you sure you want to quit game?',
-					resultTitle:'DAILY PROFIT',
-					resultEarn:'EARN : ',
-					resultRate:'RATE : ',
-					share:'SHARE YOUR SCORE'
+					newTitle:'NOVO JOGO',
+					newDesc:'Tem certeza de que deseja iniciar um novo jogo?\nQualquer progresso anterior será perdido!',
+					quitTitle:'SAIR DO JOGO',
+					quitDesc:'Tem certeza de que deseja sair do jogo?',
+					resultTitle:'LUCRO DIÁRIO',
+					resultEarn:'GANHAR : ',
+					resultRate:'AVALIAR : ',
+					share:'COMPARTILHE SUA PONTUAÇÃO'
 				}
 	
 
 //Social share, [SCORE] will replace with game score
 var shareEnable = true; //toggle share
-var shareTitle = 'Highscore on Tap Supermarket Game is $[SCORE] with [STAR] star rating';//social share score title
-var shareMessage = '$[SCORE] with [STAR] star rating is mine new highscore on Tap Supermarket Game! Try it now!'; //social share score message
+var shareTitle = 'A pontuação mais alta no jogo Tap Supermarket é $[SCORE] com classificação de estrelas [STAR]';//social share score title
+var shareMessage = '$[SCORE] com classificação por estrelas [STAR] é meu novo recorde no Tap Supermarket Game! Tente agora!'; //social share score message
 
 /*!
  *
  * GAME SETTING CUSTOMIZATION END
  *
  */
-var cookieName = 'tapsupermarket2020';
+var cookieName = 'tapsupermarket2022';
 var isometricData = {guide:false, array:[], x:-65, y:459, row:42, column:30, width:25};
 var playerData = {score:0};
 var gameData = {paused:true, popCase:'', saveData:null};
