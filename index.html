@@ -25,7 +25,19 @@
         <meta name="twitter:description" content="Tap Supermarket is a HTML5 game where you own your own market and become rich by making the best out of it, keep on expending for the new departments to increase rating of your supermarket." />
         <meta name="twitter:image" content="https://psycodeliccircus.github.io/tapsupermarket/share.jpg" />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <!-- Standardised web app manifest -->
+		<link rel="manifest" href="appmanifest.json" />
+		
+		<!-- Allow fullscreen mode on iOS devices. (These are Apple specific meta tags.) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link rel="apple-touch-icon" sizes="256x256" href="icon-256.png" />
+		<meta name="HandheldFriendly" content="true" />
+		
+		<!-- Chrome for Android web app tags -->
+		<meta name="mobile-web-app-capable" content="yes" />
+		<link rel="shortcut icon" sizes="256x256" href="icon-256.png" />
 		<script>
         if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
             var msViewportStyle = document.createElement("style");
